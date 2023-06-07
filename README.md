@@ -19,5 +19,8 @@
 13. Back in Dialogflow Console > **Fulfillment** > **Enable** Webhook.
 14. Paste the URL from the Firebase console’s trigger column into the **URL** field > **Save**.
 
+## Logging
+Realtime logs can be monitored in the terminal with a command `npx firebase-logging --project=<PROJECTID> --freq=1500` which refreshes the log every 1.5 s in this case.
+
 ## Inspiration
 Based on [fulfillment-weather-nodejs](https://github.com/dialogflow/fulfillment-weather-nodejs).
