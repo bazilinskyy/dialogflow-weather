@@ -5,7 +5,7 @@
 3. In Dialogflow console under **Settings** ⚙ > [Restore from Zip](https://dialogflow.com/docs/agents#export_and_import) using the `weather-bot.zip` in this directory.
 4. Get a WWO Local Weather REST API key from https://developer.worldweatheronline.com/api.
     + You can register for a 30 days trial for trying things out.
-5. Replace *<ENTER_WWO_API_KEY_HERE>* with your WWO API key under the comment `// API key from World Weather API` in `functions/index.js`
+5. Replace **<ENTER_WWO_API_KEY_HERE>** with your WWO API key under the comment `// API key from World Weather API` in `functions/index.js`
 6. `cd` to the directory of the repository.
 7. Run `npm install`
 8. Install the Firebase CLI with `npm install -g firebase-tools`
