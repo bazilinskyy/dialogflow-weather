@@ -135,3 +135,9 @@ dist
 # sublime text project files
 *.sublime-project
 *.sublime-workspace
+
+# Firebase
+.firebaserc
+firebase.json
+/functions/.gitignore
+/functions/package-lock.json
