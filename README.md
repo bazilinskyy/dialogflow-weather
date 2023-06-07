@@ -10,7 +10,7 @@
 7. Run `npm install`
 8. Install the Firebase CLI with `npm install -g firebase-tools`
 9. Login to your Google account with `firebase login`
-10. Initialise the Firebase project with `firebase init`. Select **Functions**. 
+10. Initialise the Firebase project with `firebase init functions`.
       + In Dialogflow console under **Settings** ⚙ > **General** tab > copy **Project ID**.
 11. Run `firebase deploy --only functions`
 12. When successfully deployed, visit the **Project Console** link > **Functions** > **Dashboard**
