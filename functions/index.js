@@ -12,6 +12,7 @@ const http = require('http');
 const functions = require('firebase-functions');
 
 const host = 'api.worldweatheronline.com';
+// API key from World Weather API
 const wwoApiKey = '<ENTER_WWO_API_KEY_HERE>';
 
 exports.dialogflowFirebaseFulfillment = functions.https.onRequest((req, res) => {
