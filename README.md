@@ -28,9 +28,9 @@
 ## Logging
 Realtime logs can be monitored in the terminal with a command `npx firebase-logging --project=<PROJECTID> --freq=1500` which refreshes the log every 1.5 s in this case.
 
-## Inspiration
-Based on [fulfillment-weather-nodejs](https://github.com/dialogflow/fulfillment-weather-nodejs).
-
 ## Troubleshooting
 ### Firebase is not able to deploy
 - Possible cause 1: you ran the `firebase init functions` command not from the root folder but from the **/functions** subfolder. Indication of that is the newly created **/functions** folder inside of the **/functions** subfolder (**/functions/functions**).
+
+## Inspiration
+Based on [fulfillment-weather-nodejs](https://github.com/dialogflow/fulfillment-weather-nodejs).
