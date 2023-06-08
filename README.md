@@ -6,12 +6,13 @@
 4. Get a WorldwWatherOnline (WWO) API key from https://developer.worldweatheronline.com/api.
     + You can register for a 30 days trial for trying things out.
 5. Replace **<ENTER_WWO_API_KEY_HERE>** with your WorldwWatherOnline API key on the line under the comment `// API key from World Weather API` in `functions/index.js`
-6. `cd` to the directory of the repository.
+6. `cd` to the `functions` subdirectory of the directory of the repository.
 7. Run `npm install`.
 8. Install the Firebase CLI with `npm install -g firebase-tools`.
 9. Login to your Google account with `firebase login`.
 10. Initialise the Firebase project with `firebase init functions`.
-      + In Dialogflow console under **Settings** ⚙ > **General** tab > copy **Project ID**.
+      + Select **Add Firebase to an existing Google Cloud Platform project**. In Dialogflow console under **Settings** ⚙ > **General** tab > see the **Project ID** to be used.
+      + You can overwrite the existing codebase and choose not to overwrite the **index.js** and **packages.json** files.
 11. Run `firebase deploy --only functions`.
 12. When successfully deployed, visit the **Project Console** link > **Functions** > **Dashboard**.
       + Copy the link under the events column.
