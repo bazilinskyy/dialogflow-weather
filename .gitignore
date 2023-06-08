@@ -143,4 +143,4 @@ firebase.json
 /functions/package-lock.json
 
 #Node.js
-.package-lock.json
+package-lock.json
