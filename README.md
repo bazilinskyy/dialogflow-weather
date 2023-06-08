@@ -3,7 +3,7 @@
 1. Create a [Dialogflow agent](https://console.dialogflow.com).
 2. Clone repository with `git clone https://github.com/bazilinskyy/dialogflow-weather.git` (or download the zip file and unarchive).
 3. In Dialogflow console under **Settings** ⚙ > [Restore from Zip](https://dialogflow.com/docs/agents#export_and_import) using the `weather-bot.zip` in this directory.
-4. Get a WorldwWatherOnline (WWO) API key from https://developer.worldweatheronline.com/api.
+4. Get a WorldwWatherOnline (WWO) API key from the [WWO website](https://developer.worldweatheronline.com/api).
     + You can register for a 30 days trial for trying things out.
 5. Replace **<ENTER_WWO_API_KEY_HERE>** with your WorldwWatherOnline API key on the line under the comment `// API key from World Weather API` in `functions/index.js`. The resulting line should be like `const wwoApiKey = 'jfsdnf5irer343rnfis242enf23wew232njk23n4k2';`.
 6. `cd` to the `functions` subdirectory of the directory of the repository.
@@ -30,7 +30,8 @@ Realtime logs can be monitored in the terminal with a command `npx firebase-logg
 
 ## Troubleshooting
 ### Firebase is not able to deploy
-- Possible cause 1: you ran the `firebase init functions` command not from the root folder but from the **/functions** subfolder. Indication of that is the newly created **/functions** folder inside of the **/functions** subfolder (**/functions/functions**).
+#### Possible cause 1
+You ran the `firebase init functions` command not from the root folder but from the **/functions** subfolder. Indication of that is the newly created **/functions** folder inside of the **/functions** subfolder (**/functions/functions**).
 
 ## Inspiration
 Based on [fulfillment-weather-nodejs](https://github.com/dialogflow/fulfillment-weather-nodejs).
